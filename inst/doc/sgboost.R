@@ -4,6 +4,9 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
+## ----echo = TRUE, eval = FALSE------------------------------------------------
+#  install.packages("sgboost")
+
 ## ----eval = FALSE-------------------------------------------------------------
 #  remotes::install_github(
 #    "FabianObster/sgboost",
